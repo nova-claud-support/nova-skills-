@@ -32,3 +32,8 @@ The expanded engineering pack is authored as plain Markdown with portable `name`
 For the full operational contract, see `CROSS_MODEL_COMPATIBILITY.md`. For user-facing loading and invocation steps, see `AGENT_SKILLS_GUIDE.md`.
 
 The same skill can be supplied as ordinary context to any model that can read Markdown. Automatic discovery, native commands, filesystem access, browser control, and agent delegation remain host-dependent and must not be assumed.
+
+
+## Google skill pack
+
+The Google product and technology pack is stored under `skills/google/`. Its canonical instructions remain plain Markdown and can be supplied to any model that can read Markdown. Tool invocations, Google Cloud access, API credentials, product availability, and automatic skill discovery depend on the host runtime and explicit permissions. Every imported skill includes cross-model adaptation and execution safeguards; do not assume commands are executable in every environment.
