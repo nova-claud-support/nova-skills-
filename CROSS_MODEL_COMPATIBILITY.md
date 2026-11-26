@@ -67,3 +67,8 @@ Record host-specific setup separately; do not contaminate the portable skill bod
 ## Support statement
 
 NOVA SKILLS is designed for any AI model or agent that can read and follow Markdown instructions. Native installation, automatic activation, tool use, and identical behavior cannot be guaranteed across every product or model. Those features require explicit host support.
+
+
+## ECC import compatibility policy
+
+Imported workflows use plain Markdown as the portable baseline. Any host-specific tool, hook, slash command, agent manifest, or runtime integration is optional and must be translated to the host's supported interface. Models must check tool availability and permissions, avoid claiming unavailable execution, and report verification evidence. No model vendor is required. Cross-model portability does not imply automatic discovery or identical tool execution on every platform.
