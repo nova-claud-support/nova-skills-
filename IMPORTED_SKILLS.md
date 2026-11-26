@@ -108,3 +108,11 @@ Four new skills add a complete discovery workflow:
 - skill-installation-planning
 
 The accompanying SKILL_DISCOVERY.md defines the library-wide discovery lifecycle: search accessible collections, inspect actual instructions, assess relevance and safety, deduplicate, rank candidates, and prepare installation only after approval. These capabilities are model-neutral and adapt to the tools and permissions available in each host.
+
+## Portable agent handoff
+
+One additional standalone skill supports controlled transfer of in-progress work between sessions, models, tools, repositories, collaborators, and parallel agents:
+
+- handoff
+
+The handoff workflow creates a concise temporary Markdown brief, distinguishes verified facts from assumptions, references durable artifacts without duplicating them, suggests relevant next-step skills, and redacts secrets. It is manually invoked and adapts to the filesystem and capabilities available in each host.
