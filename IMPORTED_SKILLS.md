@@ -46,3 +46,15 @@ Five new skills extend NOVA SKILLS with deeper engineering workflows:
 - authorized-app-reverse-analysis
 
 These skills include operational steps, evidence requirements, validation criteria, deliverable formats, and safety boundaries. Application analysis is limited to software the user owns or is explicitly authorized to examine.
+
+
+## Skill development and frontend practice
+
+Four independently authored skills have been added to expand learning workflows, HTML practice, and skill-library quality:
+
+- html-dom-practice
+- frontend-learning-path
+- skill-quality-evaluator
+- skill-improvement-cycle
+
+These files contain original procedures, practical exercises, evaluation criteria, and validation checklists. No source directory or external reference links are included.
