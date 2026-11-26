@@ -58,3 +58,14 @@ Four independently authored skills have been added to expand learning workflows,
 - skill-improvement-cycle
 
 These files contain original procedures, practical exercises, evaluation criteria, and validation checklists. No source directory or external reference links are included.
+
+## Agent-skill reliability and governance
+
+Four independently authored skills extend the library's agent workflow, evaluation, and security practices:
+
+- agent-handoff-continuity
+- agent-skill-benchmarking
+- skill-corpus-curation
+- skill-security-review
+
+These skills provide repeatable handoff procedures, benchmark design, corpus maintenance, and defensive package review. They use original instructions and do not embed external source links.
