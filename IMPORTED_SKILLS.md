@@ -69,3 +69,17 @@ Four independently authored skills extend the library's agent workflow, evaluati
 - skill-security-review
 
 These skills provide repeatable handoff procedures, benchmark design, corpus maintenance, and defensive package review. They use original instructions and do not embed external source links.
+
+## Agent skills expansion
+
+Seven independently authored skills extend agent planning, tool orchestration, memory hygiene, recovery, structured outputs, observability, and human oversight:
+
+- agent-task-decomposition
+- agent-tool-selection
+- agent-memory-management
+- agent-recovery-replanning
+- agent-output-contracts
+- agent-observability-tracing
+- agent-human-approval-gates
+
+Each skill defines activation conditions, a repeatable workflow, operational guardrails, and verifiable completion criteria. The files contain original instructions without external source links.
