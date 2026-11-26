@@ -152,3 +152,10 @@ Five specialist personas were added under `agents/`, with shared engineering che
 ## Universal model compatibility
 
 `CROSS_MODEL_COMPATIBILITY.md` defines the portability contract, while `AGENT_SKILLS_GUIDE.md` explains native and manual use. The skills use plain Markdown and capability-based fallbacks: any model that can read and follow Markdown instructions can use them. Automatic discovery, slash commands, filesystem access, browser automation, and agent delegation still depend on the host platform's actual support.
+
+
+## Google product and technology skill pack
+
+Imported 226 Google skill instruction files under `skills/google/`, preserving their category and package paths. The collection covers Google Cloud infrastructure, AI and Gemini APIs, agent development, databases and analytics, developer tooling, identity, Android-adjacent platform tooling, advertising integrations, and supporting plugin skills. The full path catalog is maintained in `GOOGLE_SKILLS_INDEX.md`.
+
+The imported Markdown files have been adapted for model portability: external hyperlinks were removed from skill text, host-specific tool assumptions are called out, and execution safeguards require capability checks, authorization, approval for consequential operations, and evidence-based completion. The original Apache 2.0 license is retained in `THIRD_PARTY_LICENSES/GOOGLE_SKILLS_APACHE_2.0.txt`.
