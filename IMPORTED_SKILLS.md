@@ -116,3 +116,39 @@ One additional standalone skill supports controlled transfer of in-progress work
 - handoff
 
 The handoff workflow creates a concise temporary Markdown brief, distinguishes verified facts from assumptions, references durable artifacts without duplicating them, suggests relevant next-step skills, and redacts secrets. It is manually invoked and adapts to the filesystem and capabilities available in each host.
+
+## Production engineering agent skills
+
+A production-oriented engineering workflow pack has been added. It includes 25 additional skills; the existing `context-engineering` skill was already present and has been extended with cross-model guidance.
+
+- accessibility-engineering
+- api-and-interface-design
+- browser-testing-with-devtools
+- ci-cd-and-automation
+- code-review-and-quality
+- code-simplification
+- constraint-driven-development
+- debugging-and-error-recovery
+- deprecation-and-migration
+- documentation-and-adrs
+- doubt-driven-development
+- frontend-ui-engineering
+- git-workflow-and-versioning
+- idea-refine
+- incremental-implementation
+- interview-me
+- observability-and-instrumentation
+- performance-optimization
+- planning-and-task-breakdown
+- security-and-hardening
+- shipping-and-launch
+- source-driven-development
+- spec-driven-development
+- test-driven-development
+- using-agent-skills
+
+Five specialist personas were added under `agents/`, with shared engineering checklists under `references/`. The required MIT license is retained in the repository root. External hyperlinks were removed from the imported skill, persona, and reference text.
+
+## Universal model compatibility
+
+`CROSS_MODEL_COMPATIBILITY.md` defines the portability contract, while `AGENT_SKILLS_GUIDE.md` explains native and manual use. The skills use plain Markdown and capability-based fallbacks: any model that can read and follow Markdown instructions can use them. Automatic discovery, slash commands, filesystem access, browser automation, and agent delegation still depend on the host platform's actual support.
