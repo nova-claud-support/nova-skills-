@@ -30,3 +30,8 @@ Files under `references/` are shared checklists and supporting material. Preserv
 ## Honest capability reporting
 
 Never claim that an integration, command, test, browser action, or deployment ran unless the current host confirms it. If a required capability is unavailable, provide a manual alternative and mark the check as unverified.
+
+
+## ECC portable engineering pack
+
+The ECC-derived pack is stored under `skills/ecc-*/SKILL.md`. These are canonical Markdown workflows, not vendor-specific runtime packages. A model can follow them when the skill text is supplied as context. Hosts may optionally map the folders into their native skill discovery system, but automatic loading, subagents, hooks, shell access, browser automation, and memory features are host-dependent. Always adapt tool names to the current environment and report unavailable operations honestly.
