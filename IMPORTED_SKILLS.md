@@ -97,3 +97,14 @@ Seven new resources make the library usable beyond a single coding assistant or 
 - PORTABILITY.md and SKILL_COMPATIBILITY.md
 
 The canonical skills use portable Markdown instructions, capability-based tool descriptions, and fallbacks for unavailable tools. Native discovery and direct execution remain dependent on each host's supported features and permissions. The same skill content can be supplied as ordinary context when a host does not support automatic skill loading.
+
+## Skill discovery and catalog management
+
+Four new skills add a complete discovery workflow:
+
+- skill-discovery
+- skill-registry-aggregation
+- skill-relevance-ranking
+- skill-installation-planning
+
+The accompanying SKILL_DISCOVERY.md defines the library-wide discovery lifecycle: search accessible collections, inspect actual instructions, assess relevance and safety, deduplicate, rank candidates, and prepare installation only after approval. These capabilities are model-neutral and adapt to the tools and permissions available in each host.
