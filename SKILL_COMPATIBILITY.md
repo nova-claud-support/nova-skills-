@@ -24,3 +24,11 @@ The library is designed for use with GPT, Claude, Gemini, Llama, Qwen, DeepSeek,
 A host-specific adapter may document installation paths or map generic capabilities to native tools. Adapters must not fork canonical skill instructions unless a genuine runtime limitation requires it.
 
 See PORTABILITY.md for the authoring and validation standard.
+
+## Cross-model execution standard
+
+The expanded engineering pack is authored as plain Markdown with portable `name` and `description` metadata. Each imported workflow includes a cross-model portability section requiring capability detection, tool substitution, explicit limitations, and evidence-based completion claims.
+
+For the full operational contract, see `CROSS_MODEL_COMPATIBILITY.md`. For user-facing loading and invocation steps, see `AGENT_SKILLS_GUIDE.md`.
+
+The same skill can be supplied as ordinary context to any model that can read Markdown. Automatic discovery, native commands, filesystem access, browser control, and agent delegation remain host-dependent and must not be assumed.
