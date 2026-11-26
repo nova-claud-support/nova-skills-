@@ -164,3 +164,8 @@ The imported Markdown files have been adapted for model portability: external hy
 ## Import scope and companion files
 
 The Google pack adds 226 `SKILL.md` files. Companion references, scripts, assets, plugin manifests, marketplace configuration, and Git submodule contents were not included in this import. Consult `GOOGLE_SKILLS_IMPORT_NOTES.md` before assuming an optional companion file or runtime integration is present.
+
+
+## ECC engineering system import
+
+Added 28 portable skills: `accessibility`, `agent-architecture-audit`, `agent-eval`, `agent-harness-construction`, `agent-introspection-debugging`, `agent-security-hardening`, `agent-self-evaluation`, `agentic-engineering`, `api-design`, `architecture-decision-records`, `backend-patterns`, `coding-standards`, `change-impact`, `e2e-testing`, `docs-governance`, `frontend-patterns`, `git-workflow`, `docker-patterns`, `database-migrations`, `react-patterns`, `python-patterns`, `python-testing`, `security-review`, `security-scan`, `mcp-server-patterns`, `tdd-workflow`, `verification-loop`, `android-clean-architecture`. The workflows cover agent engineering, architecture, backend and frontend development, Android, testing, documentation, Git, containers, databases, MCP, accessibility, and defensive security. Tool-specific steps were generalized for cross-model use. Security workflows are restricted to authorized defensive assessment. Platform-specific hooks, slash commands, and runtime integrations are not assumed to work universally.
