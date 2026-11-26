@@ -169,3 +169,55 @@ The Google pack adds 226 `SKILL.md` files. Companion references, scripts, assets
 ## ECC engineering system import
 
 Added 28 portable skills: `accessibility`, `agent-architecture-audit`, `agent-eval`, `agent-harness-construction`, `agent-introspection-debugging`, `agent-security-hardening`, `agent-self-evaluation`, `agentic-engineering`, `api-design`, `architecture-decision-records`, `backend-patterns`, `coding-standards`, `change-impact`, `e2e-testing`, `docs-governance`, `frontend-patterns`, `git-workflow`, `docker-patterns`, `database-migrations`, `react-patterns`, `python-patterns`, `python-testing`, `security-review`, `security-scan`, `mcp-server-patterns`, `tdd-workflow`, `verification-loop`, `android-clean-architecture`. The workflows cover agent engineering, architecture, backend and frontend development, Android, testing, documentation, Git, containers, databases, MCP, accessibility, and defensive security. Tool-specific steps were generalized for cross-model use. Security workflows are restricted to authorized defensive assessment. Platform-specific hooks, slash commands, and runtime integrations are not assumed to work universally.
+
+
+## ECC engineering skill expansion
+
+Forty additional portable engineering workflows have been added under `skills/ecc-*/SKILL.md`. Each file retains its practical workflow content, removes external hyperlinks, and adds a NOVA cross-model adaptation note. The imported set covers agent engineering and evaluation, AI regression testing, Android architecture, API and backend design, architecture decision records, coding standards, database migrations, research, deployment, Docker, end-to-end testing, frontend patterns, Git, MCP server design, Python, React, TDD, verification loops, context budgeting, accessibility, defensive agent hardening, application security review, codebase onboarding, design systems, browser QA, Flutter, Angular, Django, FastAPI, Go, Kotlin, Next.js, Node.js hashing, PostgreSQL, Rust, TypeScript, and Vue.
+
+The import is a curated skills-only integration, not a wholesale copy of the upstream runtime. Platform-specific installers, hooks, scripts, plugin manifests, agent executables, and service integrations were not copied. This avoids implying that another host can safely execute vendor-specific runtime components. The root MIT license already present in NOVA SKILLS is retained; preserve applicable third-party license notices if any further material is imported.
+
+The 40 added skill folders are:
+
+- ecc-accessibility
+- ecc-agent-eval
+- ecc-agent-harness-construction
+- ecc-agent-security-hardening
+- ecc-agentic-engineering
+- ecc-ai-regression-testing
+- ecc-android-clean-architecture
+- ecc-angular-developer
+- ecc-api-design
+- ecc-architecture-decision-records
+- ecc-backend-patterns
+- ecc-browser-qa
+- ecc-codebase-onboarding
+- ecc-coding-standards
+- ecc-context-budget
+- ecc-dart-flutter-patterns
+- ecc-database-migrations
+- ecc-deep-research
+- ecc-deployment-patterns
+- ecc-design-system
+- ecc-django-patterns
+- ecc-docker-patterns
+- ecc-e2e-testing
+- ecc-fastapi-patterns
+- ecc-frontend-patterns
+- ecc-git-workflow
+- ecc-golang-patterns
+- ecc-kotlin-patterns
+- ecc-mcp-server-patterns
+- ecc-nextjs-turbopack
+- ecc-nodejs-keccak256
+- ecc-postgres-patterns
+- ecc-python-patterns
+- ecc-react-patterns
+- ecc-rust-patterns
+- ecc-security-review
+- ecc-tdd-workflow
+- ecc-typescript-patterns
+- ecc-verification-loop
+- ecc-vue-patterns
+
+Security-oriented workflows are limited to defensive design, secure coding, authorization boundaries, and review of systems the user owns or is authorized to assess.
