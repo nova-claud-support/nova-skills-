@@ -249,3 +249,6 @@ This index lists the imported Google skill instruction files included in NOVA SK
 - `skills/google/plugins/health/google-health-developer/skills/finding-google-skills/SKILL.md`
 - `skills/google/plugins/home/google-home-developer/skills/finding-google-skills/SKILL.md`
 
+
+
+> Import scope: the index covers skill instruction files only. Companion references, scripts, assets, plugin manifests, and submodule contents are not included; see `GOOGLE_SKILLS_IMPORT_NOTES.md`.
