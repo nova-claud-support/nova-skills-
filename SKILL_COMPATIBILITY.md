@@ -37,3 +37,6 @@ The same skill can be supplied as ordinary context to any model that can read Ma
 ## Google skill pack
 
 The Google product and technology pack is stored under `skills/google/`. Its canonical instructions remain plain Markdown and can be supplied to any model that can read Markdown. Tool invocations, Google Cloud access, API credentials, product availability, and automatic skill discovery depend on the host runtime and explicit permissions. Every imported skill includes cross-model adaptation and execution safeguards; do not assume commands are executable in every environment.
+
+
+Google skill companion files are not bundled automatically. A `SKILL.md` may describe references, scripts, templates, MCP servers, or plugins that are not present in this repository; verify their availability before use and never claim they were installed by this import.
