@@ -159,3 +159,8 @@ Five specialist personas were added under `agents/`, with shared engineering che
 Imported 226 Google skill instruction files under `skills/google/`, preserving their category and package paths. The collection covers Google Cloud infrastructure, AI and Gemini APIs, agent development, databases and analytics, developer tooling, identity, Android-adjacent platform tooling, advertising integrations, and supporting plugin skills. The full path catalog is maintained in `GOOGLE_SKILLS_INDEX.md`.
 
 The imported Markdown files have been adapted for model portability: external hyperlinks were removed from skill text, host-specific tool assumptions are called out, and execution safeguards require capability checks, authorization, approval for consequential operations, and evidence-based completion. The original Apache 2.0 license is retained in `THIRD_PARTY_LICENSES/GOOGLE_SKILLS_APACHE_2.0.txt`.
+
+
+## Import scope and companion files
+
+The Google pack adds 226 `SKILL.md` files. Companion references, scripts, assets, plugin manifests, marketplace configuration, and Git submodule contents were not included in this import. Consult `GOOGLE_SKILLS_IMPORT_NOTES.md` before assuming an optional companion file or runtime integration is present.
