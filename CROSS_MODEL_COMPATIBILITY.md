@@ -72,3 +72,8 @@ NOVA SKILLS is designed for any AI model or agent that can read and follow Markd
 ## ECC import compatibility policy
 
 Imported workflows use plain Markdown as the portable baseline. Any host-specific tool, hook, slash command, agent manifest, or runtime integration is optional and must be translated to the host's supported interface. Models must check tool availability and permissions, avoid claiming unavailable execution, and report verification evidence. No model vendor is required. Cross-model portability does not imply automatic discovery or identical tool execution on every platform.
+
+
+## Imported ECC workflows
+
+The ECC-derived content in `skills/ecc-*/SKILL.md` is treated as portable instruction material. Vendor-specific runtime files were intentionally excluded. A compatible model needs only the ability to read Markdown and follow its workflow; tools are optional and must be mapped to capabilities actually exposed by the host. Security-related workflows are defensive and must be restricted to authorized systems. Imported documents do not grant permission to run commands, access external services, or modify repositories.
