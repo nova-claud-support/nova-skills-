@@ -1,427 +1,482 @@
-# NOVA SKILLS — Catalog
+# NOVA SKILLS — فهرس المهارات
 
-عدد ملفات المهارات: **421**
+**إجمالي المهارات: 421 مهارة** — جميعها ملفات Markdown مستقلة، وروابطها تفتح ملف المهارة مباشرةً.
 
-كل ملف أدناه مستقل بصيغة Markdown وموجود في المستوى الرئيسي.
+## A
 
-- `skill-accessibility-audit.md`
-- `skill-accessibility-engineering.md`
-- `skill-accessibility.md`
-- `skill-advanced-hover-effects.md`
-- `skill-agent-architecture-audit.md`
-- `skill-agent-capability-adaptation.md`
-- `skill-agent-eval.md`
-- `skill-agent-evaluation.md`
-- `skill-agent-handoff-continuity.md`
-- `skill-agent-harness-construction.md`
-- `skill-agent-harness-engineering.md`
-- `skill-agent-human-approval-gates.md`
-- `skill-agent-introspection-debugging.md`
-- `skill-agent-memory-management.md`
-- `skill-agent-observability-tracing.md`
-- `skill-agent-output-contracts.md`
-- `skill-agent-recovery-replanning.md`
-- `skill-agent-security-hardening.md`
-- `skill-agent-self-evaluation.md`
-- `skill-agent-skill-benchmarking.md`
-- `skill-agent-task-decomposition.md`
-- `skill-agent-tool-selection.md`
-- `skill-agentic-engineering.md`
-- `skill-ai-cost-engineering.md`
-- `skill-ai-design-patterns.md`
-- `skill-ai-observability.md`
-- `skill-analysis-performance-optimization.md`
-- `skill-android-app-development.md`
-- `skill-android-clean-architecture.md`
-- `skill-api-and-interface-design.md`
-- `skill-api-design-reviewer.md`
-- `skill-api-design.md`
-- `skill-api-test-suite-builder.md`
-- `skill-app-analysis.md`
-- `skill-architecture-decision-records.md`
-- `skill-authorized-app-reverse-analysis.md`
-- `skill-backend-api-design.md`
-- `skill-backend-patterns.md`
-- `skill-browser-automation.md`
-- `skill-browser-testing-with-devtools.md`
-- `skill-change-impact.md`
-- `skill-ci-cd-and-automation.md`
-- `skill-ci-cd-pipeline-builder.md`
-- `skill-ci-test-audit.md`
-- `skill-code-review-and-quality.md`
-- `skill-code-reviewer.md`
-- `skill-code-simplification.md`
-- `skill-codebase-onboarding.md`
-- `skill-coding-agent-workflow.md`
-- `skill-coding-standards.md`
-- `skill-color-system-design.md`
-- `skill-commit-craft.md`
-- `skill-constraint-driven-development.md`
-- `skill-context-engineering.md`
-- `skill-context-file-engineering.md`
-- `skill-creative-layout-composition.md`
-- `skill-cross-model-skill-portability.md`
-- `skill-database-designer.md`
-- `skill-database-migrations.md`
-- `skill-database-schema-design.md`
-- `skill-debugging-and-error-recovery.md`
-- `skill-dependency-auditor.md`
-- `skill-deprecation-and-migration.md`
-- `skill-design-qa.md`
-- `skill-docker-patterns.md`
-- `skill-docs-governance.md`
-- `skill-documentation-and-adrs.md`
-- `skill-doubt-driven-development.md`
-- `skill-dynamic-theme-engine.md`
-- `skill-e2e-testing.md`
-- `skill-ecc-accessibility.md`
-- `skill-ecc-agent-eval.md`
-- `skill-ecc-agent-harness-construction.md`
-- `skill-ecc-agent-security-hardening.md`
-- `skill-ecc-agentic-engineering.md`
-- `skill-ecc-ai-regression-testing.md`
-- `skill-ecc-android-clean-architecture.md`
-- `skill-ecc-angular-developer.md`
-- `skill-ecc-api-design.md`
-- `skill-ecc-architecture-decision-records.md`
-- `skill-ecc-backend-patterns.md`
-- `skill-ecc-browser-qa.md`
-- `skill-ecc-codebase-onboarding.md`
-- `skill-ecc-coding-standards.md`
-- `skill-ecc-context-budget.md`
-- `skill-ecc-dart-flutter-patterns.md`
-- `skill-ecc-database-migrations.md`
-- `skill-ecc-deep-research.md`
-- `skill-ecc-deployment-patterns.md`
-- `skill-ecc-design-system.md`
-- `skill-ecc-django-patterns.md`
-- `skill-ecc-docker-patterns.md`
-- `skill-ecc-e2e-testing.md`
-- `skill-ecc-fastapi-patterns.md`
-- `skill-ecc-frontend-patterns.md`
-- `skill-ecc-git-workflow.md`
-- `skill-ecc-golang-patterns.md`
-- `skill-ecc-kotlin-patterns.md`
-- `skill-ecc-mcp-server-patterns.md`
-- `skill-ecc-nextjs-turbopack.md`
-- `skill-ecc-nodejs-keccak256.md`
-- `skill-ecc-postgres-patterns.md`
-- `skill-ecc-python-patterns.md`
-- `skill-ecc-react-patterns.md`
-- `skill-ecc-rust-patterns.md`
-- `skill-ecc-security-review.md`
-- `skill-ecc-tdd-workflow.md`
-- `skill-ecc-typescript-patterns.md`
-- `skill-ecc-verification-loop.md`
-- `skill-ecc-vue-patterns.md`
-- `skill-focused-fix.md`
-- `skill-frontend-learning-path.md`
-- `skill-frontend-patterns.md`
-- `skill-frontend-ui-engineering.md`
-- `skill-git-workflow-and-versioning.md`
-- `skill-git-workflow.md`
-- `skill-glassmorphism-interface.md`
-- `skill-google-plugins-cloud-google-cloud-developer-skills-finding-google-skills.md`
-- `skill-google-plugins-cloud-google-cloud-developer-skills-gcloud.md`
-- `skill-google-plugins-cloud-google-cloud-developer-skills-google-cloud-recipe-auth.md`
-- `skill-google-plugins-cloud-google-cloud-developer-skills-google-cloud-recipe-onboarding.md`
-- `skill-google-plugins-cloud-google-cloud-developer-skills-retrieving-developer-knowledge.md`
-- `skill-google-plugins-health-google-health-developer-skills-finding-google-skills.md`
-- `skill-google-plugins-home-google-home-developer-skills-finding-google-skills.md`
-- `skill-google-skills-ads-data-manager-api-audience-ingestion.md`
-- `skill-google-skills-ads-data-manager-api-event-ingestion.md`
-- `skill-google-skills-ads-data-manager-api-setup.md`
-- `skill-google-skills-ads-data-manager-api-troubleshooting.md`
-- `skill-google-skills-ads-google-ads-api-account-diagnostics.md`
-- `skill-google-skills-ads-google-ads-api-mcp-setup.md`
-- `skill-google-skills-ads-google-ads-api-quickstart.md`
-- `skill-google-skills-ads-google-mobile-ads-android-migrate-to-next-gen.md`
-- `skill-google-skills-ads-google-mobile-ads-banner.md`
-- `skill-google-skills-ads-google-mobile-ads-get-started.md`
-- `skill-google-skills-ads-google-mobile-ads-interstitial.md`
-- `skill-google-skills-ads-google-mobile-ads-rewarded.md`
-- `skill-google-skills-ads-google-mobile-ads-validate.md`
-- `skill-google-skills-ads-ima-dai-sdk.md`
-- `skill-google-skills-ads-ima-sdk-client-side.md`
-- `skill-google-skills-analytics-google-analytics-admin-api-basics.md`
-- `skill-google-skills-analytics-google-analytics-data-api-basics.md`
-- `skill-google-skills-cloud-agent-platform-access-audit.md`
-- `skill-google-skills-cloud-agent-platform-agent-registry.md`
-- `skill-google-skills-cloud-agent-platform-alert-configuration.md`
-- `skill-google-skills-cloud-agent-platform-architecture.md`
-- `skill-google-skills-cloud-agent-platform-autorater-customization.md`
-- `skill-google-skills-cloud-agent-platform-deploy.md`
-- `skill-google-skills-cloud-agent-platform-endpoint-management.md`
-- `skill-google-skills-cloud-agent-platform-eval-flywheel.md`
-- `skill-google-skills-cloud-agent-platform-inference.md`
-- `skill-google-skills-cloud-agent-platform-migrate-from-ai-studio.md`
-- `skill-google-skills-cloud-agent-platform-model-registry.md`
-- `skill-google-skills-cloud-agent-platform-prompt-management.md`
-- `skill-google-skills-cloud-agent-platform-rag-engine-management.md`
-- `skill-google-skills-cloud-agent-platform-skill-registry.md`
-- `skill-google-skills-cloud-agent-platform-troubleshooting.md`
-- `skill-google-skills-cloud-agent-platform-tuning-management.md`
-- `skill-google-skills-cloud-agent-platform-tuning.md`
-- `skill-google-skills-cloud-alloydb-basics.md`
-- `skill-google-skills-cloud-api-gateway-backend-security-and-rate-limiting.md`
-- `skill-google-skills-cloud-api-gateway-mcp-server.md`
-- `skill-google-skills-cloud-api-gateway-openapi-spec-authoring.md`
-- `skill-google-skills-cloud-api-gateway-troubleshooting.md`
-- `skill-google-skills-cloud-apigee-agent-gateway-governance.md`
-- `skill-google-skills-cloud-application-design-center-design-deploy.md`
-- `skill-google-skills-cloud-application-integration-authoring.md`
-- `skill-google-skills-cloud-application-integration-basics.md`
-- `skill-google-skills-cloud-application-integration-troubleshooting.md`
-- `skill-google-skills-cloud-assured-workloads-basics.md`
-- `skill-google-skills-cloud-assuredworkloads-environment-assessor.md`
-- `skill-google-skills-cloud-assuredworkloads-frameworks-author.md`
-- `skill-google-skills-cloud-assuredworkloads-frameworks-navigator.md`
-- `skill-google-skills-cloud-bigquery-ai-ml.md`
-- `skill-google-skills-cloud-bigquery-basics.md`
-- `skill-google-skills-cloud-bigquery-bigframes.md`
-- `skill-google-skills-cloud-bigquery-migration-data-exporter.md`
-- `skill-google-skills-cloud-bigquery-migration-data-loader.md`
-- `skill-google-skills-cloud-bigquery-migration-metadata-extractor.md`
-- `skill-google-skills-cloud-bigquery-migration-sql-translator.md`
-- `skill-google-skills-cloud-bigquery-migration-validator.md`
-- `skill-google-skills-cloud-bigquery-observability.md`
-- `skill-google-skills-cloud-bigquery-optimization.md`
-- `skill-google-skills-cloud-bigquery-troubleshooting.md`
-- `skill-google-skills-cloud-bigquery-udfs.md`
-- `skill-google-skills-cloud-bigtable-basics.md`
-- `skill-google-skills-cloud-cloud-armor-crs-rule-upgrader.md`
-- `skill-google-skills-cloud-cloud-build-basics.md`
-- `skill-google-skills-cloud-cloud-databases-onboarding.md`
-- `skill-google-skills-cloud-cloud-logging-configuration-basics.md`
-- `skill-google-skills-cloud-cloud-logging-cross-project-configuration.md`
-- `skill-google-skills-cloud-cloud-logging-finops.md`
-- `skill-google-skills-cloud-cloud-logging-query-generation.md`
-- `skill-google-skills-cloud-cloud-monitoring-alert-configuration.md`
-- `skill-google-skills-cloud-cloud-monitoring-chart-generation.md`
-- `skill-google-skills-cloud-cloud-monitoring-list-time-series-request.md`
-- `skill-google-skills-cloud-cloud-monitoring-metric-selection.md`
-- `skill-google-skills-cloud-cloud-monitoring-notification-channels-configuration.md`
-- `skill-google-skills-cloud-cloud-monitoring-promql-query.md`
-- `skill-google-skills-cloud-cloud-network-insights.md`
-- `skill-google-skills-cloud-cloud-operator-setup.md`
-- `skill-google-skills-cloud-cloud-operator-share-context.md`
-- `skill-google-skills-cloud-cloud-operator.md`
-- `skill-google-skills-cloud-cloud-run-alert-configuration.md`
-- `skill-google-skills-cloud-cloud-run-basics.md`
-- `skill-google-skills-cloud-cloud-sql-basics.md`
-- `skill-google-skills-cloud-cloud-trace-querying.md`
-- `skill-google-skills-cloud-compute-future-reservations.md`
-- `skill-google-skills-cloud-compute-host-events-troubleshooting.md`
-- `skill-google-skills-cloud-compute-mig-autoscaling-troubleshooting.md`
-- `skill-google-skills-cloud-compute-on-demand-reservations.md`
-- `skill-google-skills-cloud-compute-resource-availability-troubleshooting.md`
-- `skill-google-skills-cloud-compute-spot-capacity-advice.md`
-- `skill-google-skills-cloud-compute-vm-creation.md`
-- `skill-google-skills-cloud-datalineage-bigquery-asset-impact-analysis.md`
-- `skill-google-skills-cloud-datalineage-summary.md`
-- `skill-google-skills-cloud-dbt-sf-to-bq-translator.md`
-- `skill-google-skills-cloud-detection-engineering-coverage-evaluation.md`
-- `skill-google-skills-cloud-developer-device-platform-basics.md`
-- `skill-google-skills-cloud-developer-device-platform-device-run.md`
-- `skill-google-skills-cloud-developing-genkit-dart.md`
-- `skill-google-skills-cloud-developing-genkit-go.md`
-- `skill-google-skills-cloud-developing-genkit-js.md`
-- `skill-google-skills-cloud-developing-genkit-python.md`
-- `skill-google-skills-cloud-firebase-basics.md`
-- `skill-google-skills-cloud-gcloud.md`
-- `skill-google-skills-cloud-gemini-agents-api.md`
-- `skill-google-skills-cloud-gemini-api.md`
-- `skill-google-skills-cloud-gemini-interactions-api.md`
-- `skill-google-skills-cloud-gemini-live-api.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-handle-disruption-gpu-tpu.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-jobset-interruption.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-node-unresponsive-timeout.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-tpu-dynamic-slices-monitoring.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-tpu-metrics-monitoring.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-tpu-mxla-hang.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-tpu-partition-overlap.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-tpu-performance-degradation.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-tpu-reservation-stockout.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-tpu-slice-mig-stuck-updating.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-tpu-vbar-oom.md`
-- `skill-google-skills-cloud-gke-ai-troubleshooting-tpu-vm-repair-stuck.md`
-- `skill-google-skills-cloud-gke-alert-configuration.md`
-- `skill-google-skills-cloud-gke-app-onboarding.md`
-- `skill-google-skills-cloud-gke-backup-dr.md`
-- `skill-google-skills-cloud-gke-basics.md`
-- `skill-google-skills-cloud-gke-batch-hpc.md`
-- `skill-google-skills-cloud-gke-capacity-triage.md`
-- `skill-google-skills-cloud-gke-cluster-autoscaler.md`
-- `skill-google-skills-cloud-gke-cluster-creation.md`
-- `skill-google-skills-cloud-gke-compute-classes.md`
-- `skill-google-skills-cloud-gke-cost-analysis.md`
-- `skill-google-skills-cloud-gke-cost-optimization.md`
-- `skill-google-skills-cloud-gke-custom-golden-image-discovery.md`
-- `skill-google-skills-cloud-gke-golden-path.md`
-- `skill-google-skills-cloud-gke-inference.md`
-- `skill-google-skills-cloud-gke-kueue-troubleshooting.md`
-- `skill-google-skills-cloud-gke-manifest-generation.md`
-- `skill-google-skills-cloud-gke-multitenancy.md`
-- `skill-google-skills-cloud-gke-networking.md`
-- `skill-google-skills-cloud-gke-node-notready.md`
-- `skill-google-skills-cloud-gke-observability.md`
-- `skill-google-skills-cloud-gke-platform-security.md`
-- `skill-google-skills-cloud-gke-productionize.md`
-- `skill-google-skills-cloud-gke-reliability.md`
-- `skill-google-skills-cloud-gke-service-networking.md`
-- `skill-google-skills-cloud-gke-statefulset-without-probes.md`
-- `skill-google-skills-cloud-gke-storage-troubleshooting.md`
-- `skill-google-skills-cloud-gke-storage.md`
-- `skill-google-skills-cloud-gke-unprotected-statefulset.md`
-- `skill-google-skills-cloud-gke-upgrades.md`
-- `skill-google-skills-cloud-gke-workload-identity.md`
-- `skill-google-skills-cloud-gke-workload-scaling-troubleshooting.md`
-- `skill-google-skills-cloud-gke-workload-scaling.md`
-- `skill-google-skills-cloud-gke-workload-security.md`
-- `skill-google-skills-cloud-gke-workload-troubleshooting.md`
-- `skill-google-skills-cloud-google-agents-cli-onboarding.md`
-- `skill-google-skills-cloud-google-cicd-deploy.md`
-- `skill-google-skills-cloud-google-cicd-pipeline-design.md`
-- `skill-google-skills-cloud-google-cicd-release-orchestration.md`
-- `skill-google-skills-cloud-google-cicd-terraform.md`
-- `skill-google-skills-cloud-google-cloud-filestore-auditing.md`
-- `skill-google-skills-cloud-google-cloud-filestore-autoscale.md`
-- `skill-google-skills-cloud-google-cloud-filestore-log-troubleshooting.md`
-- `skill-google-skills-cloud-google-cloud-filestore-nfs-browser.md`
-- `skill-google-skills-cloud-google-cloud-global-frontend-configuration.md`
-- `skill-google-skills-cloud-google-cloud-networking-observability.md`
-- `skill-google-skills-cloud-google-cloud-recipe-auth.md`
-- `skill-google-skills-cloud-google-cloud-recipe-foundation-builder.md`
-- `skill-google-skills-cloud-google-cloud-recipe-onboarding.md`
-- `skill-google-skills-cloud-google-cloud-release-radar.md`
-- `skill-google-skills-cloud-google-cloud-scc-query.md`
-- `skill-google-skills-cloud-google-cloud-scc-remediation.md`
-- `skill-google-skills-cloud-google-cloud-slo-alert-configuration.md`
-- `skill-google-skills-cloud-google-cloud-solution-agentic-ai-bidirectional-streaming.md`
-- `skill-google-skills-cloud-google-cloud-solution-agentic-ai-borderless-data-lakehouse.md`
-- `skill-google-skills-cloud-google-cloud-solution-agentic-ai-data-science-workflow.md`
-- `skill-google-skills-cloud-google-cloud-solution-agentic-analytics-spark-knowledge-catalog.md`
-- `skill-google-skills-cloud-google-cloud-solution-architecture.md`
-- `skill-google-skills-cloud-google-cloud-solution-build-deploy-agents.md`
-- `skill-google-skills-cloud-google-cloud-solution-event-driven-decoupling.md`
-- `skill-google-skills-cloud-google-cloud-solution-guided-gke-ai-migration.md`
-- `skill-google-skills-cloud-google-cloud-solution-hybrid-search-alloydb.md`
-- `skill-google-skills-cloud-google-cloud-solution-multi-agent-security.md`
-- `skill-google-skills-cloud-google-cloud-solution-n-tier-serverless-web-app.md`
-- `skill-google-skills-cloud-google-cloud-solution-rag-enterprise-search-gke-sqldb.md`
-- `skill-google-skills-cloud-google-cloud-storage-basics.md`
-- `skill-google-skills-cloud-google-cloud-storage-bucket-architect.md`
-- `skill-google-skills-cloud-google-cloud-storage-diagnostic.md`
-- `skill-google-skills-cloud-google-cloud-storage-fuse.md`
-- `skill-google-skills-cloud-google-cloud-waf-cost-optimization.md`
-- `skill-google-skills-cloud-google-cloud-waf-operational-excellence.md`
-- `skill-google-skills-cloud-google-cloud-waf-performance-optimization.md`
-- `skill-google-skills-cloud-google-cloud-waf-reliability.md`
-- `skill-google-skills-cloud-google-cloud-waf-security.md`
-- `skill-google-skills-cloud-google-cloud-waf-sustainability.md`
-- `skill-google-skills-cloud-iam-helper-for-policy-management.md`
-- `skill-google-skills-cloud-iam-helper-for-policy-simulator.md`
-- `skill-google-skills-cloud-iam-helper-for-privileged-access-management.md`
-- `skill-google-skills-cloud-iam-helper-for-troubleshooting.md`
-- `skill-google-skills-cloud-iap-agent-platform-troubleshooting.md`
-- `skill-google-skills-cloud-managed-airflow-dag-authoring.md`
-- `skill-google-skills-cloud-managed-airflow-dag-troubleshooting.md`
-- `skill-google-skills-cloud-managed-airflow-migrations.md`
-- `skill-google-skills-cloud-managed-airflow-recommendations.md`
-- `skill-google-skills-cloud-pathways-workload.md`
-- `skill-google-skills-cloud-secops-cases.md`
-- `skill-google-skills-cloud-secops-detection-engineering.md`
-- `skill-google-skills-cloud-secops-hunt.md`
-- `skill-google-skills-cloud-secops-investigate.md`
-- `skill-google-skills-cloud-secops-triage.md`
-- `skill-google-skills-cloud-servicehealth-incident-correlation.md`
-- `skill-google-skills-cloud-spanner-basics.md`
-- `skill-google-skills-cloud-spanner-graph-query-tuning.md`
-- `skill-google-skills-cloud-spanner-graph-schema-best-practices.md`
-- `skill-google-skills-cloud-spanner-relational-to-graph.md`
-- `skill-google-skills-cloud-workload-manager-basics.md`
-- `skill-google-skills-developers-finding-google-skills.md`
-- `skill-google-skills-developers-gerrit-code-review.md`
-- `skill-google-skills-developers-migrate-to-rust.md`
-- `skill-google-skills-developers-retrieving-developer-knowledge.md`
-- `skill-google-skills-identity-dpop-adoption.md`
-- `skill-google-skills-identity-sign-in-with-google-web.md`
-- `skill-google-skills-platform-devices-litert-google-tensor.md`
-- `skill-handoff.md`
-- `skill-html-dom-practice.md`
-- `skill-i18n-localization.md`
-- `skill-idea-refine.md`
-- `skill-incremental-implementation.md`
-- `skill-interview-me.md`
-- `skill-landing-page-generator.md`
-- `skill-lifecycle-hooks-automation.md`
-- `skill-loading-state-design.md`
-- `skill-loop-graph-engineering.md`
-- `skill-mcp-integration-engineering.md`
-- `skill-mcp-server-patterns.md`
-- `skill-mcp-tool-contract-design.md`
-- `skill-micro-interactions.md`
-- `skill-migration-architect.md`
-- `skill-mobile-release.md`
-- `skill-model-agnostic-prompt-design.md`
-- `skill-multi-agent-orchestration.md`
-- `skill-observability-and-instrumentation.md`
-- `skill-page-transition-design.md`
-- `skill-performance-optimization.md`
-- `skill-performance-profiler.md`
-- `skill-plan-driven-development.md`
-- `skill-planning-and-task-breakdown.md`
-- `skill-premium-landing-page-design.md`
-- `skill-production-change-safety.md`
-- `skill-project-instructions-engineering.md`
-- `skill-prompt-injection-defense.md`
-- `skill-python-patterns.md`
-- `skill-python-testing.md`
-- `skill-react-patterns.md`
-- `skill-release-notes-engineering.md`
-- `skill-responsive-interface-engineering.md`
-- `skill-runtime-compatibility-testing.md`
-- `skill-saas-scaffolder.md`
-- `skill-sandbox-isolation.md`
-- `skill-scroll-driven-animation.md`
-- `skill-security-and-hardening.md`
-- `skill-security-review.md`
-- `skill-security-scan.md`
-- `skill-senior-architect.md`
-- `skill-senior-backend.md`
-- `skill-senior-computer-vision.md`
-- `skill-senior-data-engineer.md`
-- `skill-senior-devops.md`
-- `skill-senior-frontend.md`
-- `skill-senior-fullstack.md`
-- `skill-senior-ml-engineer.md`
-- `skill-senior-prompt-engineer.md`
-- `skill-senior-qa.md`
-- `skill-shipping-and-launch.md`
-- `skill-skill-authoring.md`
-- `skill-skill-corpus-curation.md`
-- `skill-skill-discovery.md`
-- `skill-skill-improvement-cycle.md`
-- `skill-skill-installation-planning.md`
-- `skill-skill-quality-evaluator.md`
-- `skill-skill-registry-aggregation.md`
-- `skill-skill-relevance-ranking.md`
-- `skill-skill-security-review.md`
-- `skill-skill-tester.md`
-- `skill-software-testing.md`
-- `skill-source-driven-development.md`
-- `skill-spec-driven-development.md`
-- `skill-spec-first-development.md`
-- `skill-spec-to-repo.md`
-- `skill-tdd-guide.md`
-- `skill-tdd-workflow.md`
-- `skill-tech-debt-tracker.md`
-- `skill-test-driven-development.md`
-- `skill-three-dimensional-web-animation.md`
-- `skill-typography-system-design.md`
-- `skill-ui-design-system.md`
-- `skill-ui-ux-design.md`
-- `skill-using-agent-skills.md`
-- `skill-verification-loop.md`
-- `skill-visual-hierarchy-design.md`
-- `skill-website-intro-animation.md`
+- [accessibility audit](skill-accessibility-audit.md)
+- [accessibility engineering](skill-accessibility-engineering.md)
+- [accessibility](skill-accessibility.md)
+- [advanced hover effects](skill-advanced-hover-effects.md)
+- [agent architecture audit](skill-agent-architecture-audit.md)
+- [agent capability adaptation](skill-agent-capability-adaptation.md)
+- [agent eval](skill-agent-eval.md)
+- [agent evaluation](skill-agent-evaluation.md)
+- [agent handoff continuity](skill-agent-handoff-continuity.md)
+- [agent harness construction](skill-agent-harness-construction.md)
+- [agent harness engineering](skill-agent-harness-engineering.md)
+- [agent human approval gates](skill-agent-human-approval-gates.md)
+- [agent introspection debugging](skill-agent-introspection-debugging.md)
+- [agent memory management](skill-agent-memory-management.md)
+- [agent observability tracing](skill-agent-observability-tracing.md)
+- [agent output contracts](skill-agent-output-contracts.md)
+- [agent recovery replanning](skill-agent-recovery-replanning.md)
+- [agent security hardening](skill-agent-security-hardening.md)
+- [agent self evaluation](skill-agent-self-evaluation.md)
+- [agent skill benchmarking](skill-agent-skill-benchmarking.md)
+- [agent task decomposition](skill-agent-task-decomposition.md)
+- [agent tool selection](skill-agent-tool-selection.md)
+- [agentic engineering](skill-agentic-engineering.md)
+- [ai cost engineering](skill-ai-cost-engineering.md)
+- [ai design patterns](skill-ai-design-patterns.md)
+- [ai observability](skill-ai-observability.md)
+- [analysis performance optimization](skill-analysis-performance-optimization.md)
+- [android app development](skill-android-app-development.md)
+- [android clean architecture](skill-android-clean-architecture.md)
+- [api and interface design](skill-api-and-interface-design.md)
+- [api design reviewer](skill-api-design-reviewer.md)
+- [api design](skill-api-design.md)
+- [api test suite builder](skill-api-test-suite-builder.md)
+- [app analysis](skill-app-analysis.md)
+- [architecture decision records](skill-architecture-decision-records.md)
+- [authorized app reverse analysis](skill-authorized-app-reverse-analysis.md)
+
+## B
+
+- [backend api design](skill-backend-api-design.md)
+- [backend patterns](skill-backend-patterns.md)
+- [browser automation](skill-browser-automation.md)
+- [browser testing with devtools](skill-browser-testing-with-devtools.md)
+
+## C
+
+- [change impact](skill-change-impact.md)
+- [ci cd and automation](skill-ci-cd-and-automation.md)
+- [ci cd pipeline builder](skill-ci-cd-pipeline-builder.md)
+- [ci test audit](skill-ci-test-audit.md)
+- [code review and quality](skill-code-review-and-quality.md)
+- [code reviewer](skill-code-reviewer.md)
+- [code simplification](skill-code-simplification.md)
+- [codebase onboarding](skill-codebase-onboarding.md)
+- [coding agent workflow](skill-coding-agent-workflow.md)
+- [coding standards](skill-coding-standards.md)
+- [color system design](skill-color-system-design.md)
+- [commit craft](skill-commit-craft.md)
+- [constraint driven development](skill-constraint-driven-development.md)
+- [context engineering](skill-context-engineering.md)
+- [context file engineering](skill-context-file-engineering.md)
+- [creative layout composition](skill-creative-layout-composition.md)
+- [cross model skill portability](skill-cross-model-skill-portability.md)
+
+## D
+
+- [database designer](skill-database-designer.md)
+- [database migrations](skill-database-migrations.md)
+- [database schema design](skill-database-schema-design.md)
+- [debugging and error recovery](skill-debugging-and-error-recovery.md)
+- [dependency auditor](skill-dependency-auditor.md)
+- [deprecation and migration](skill-deprecation-and-migration.md)
+- [design qa](skill-design-qa.md)
+- [docker patterns](skill-docker-patterns.md)
+- [docs governance](skill-docs-governance.md)
+- [documentation and adrs](skill-documentation-and-adrs.md)
+- [doubt driven development](skill-doubt-driven-development.md)
+- [dynamic theme engine](skill-dynamic-theme-engine.md)
+
+## E
+
+- [e2e testing](skill-e2e-testing.md)
+- [ecc accessibility](skill-ecc-accessibility.md)
+- [ecc agent eval](skill-ecc-agent-eval.md)
+- [ecc agent harness construction](skill-ecc-agent-harness-construction.md)
+- [ecc agent security hardening](skill-ecc-agent-security-hardening.md)
+- [ecc agentic engineering](skill-ecc-agentic-engineering.md)
+- [ecc ai regression testing](skill-ecc-ai-regression-testing.md)
+- [ecc android clean architecture](skill-ecc-android-clean-architecture.md)
+- [ecc angular developer](skill-ecc-angular-developer.md)
+- [ecc api design](skill-ecc-api-design.md)
+- [ecc architecture decision records](skill-ecc-architecture-decision-records.md)
+- [ecc backend patterns](skill-ecc-backend-patterns.md)
+- [ecc browser qa](skill-ecc-browser-qa.md)
+- [ecc codebase onboarding](skill-ecc-codebase-onboarding.md)
+- [ecc coding standards](skill-ecc-coding-standards.md)
+- [ecc context budget](skill-ecc-context-budget.md)
+- [ecc dart flutter patterns](skill-ecc-dart-flutter-patterns.md)
+- [ecc database migrations](skill-ecc-database-migrations.md)
+- [ecc deep research](skill-ecc-deep-research.md)
+- [ecc deployment patterns](skill-ecc-deployment-patterns.md)
+- [ecc design system](skill-ecc-design-system.md)
+- [ecc django patterns](skill-ecc-django-patterns.md)
+- [ecc docker patterns](skill-ecc-docker-patterns.md)
+- [ecc e2e testing](skill-ecc-e2e-testing.md)
+- [ecc fastapi patterns](skill-ecc-fastapi-patterns.md)
+- [ecc frontend patterns](skill-ecc-frontend-patterns.md)
+- [ecc git workflow](skill-ecc-git-workflow.md)
+- [ecc golang patterns](skill-ecc-golang-patterns.md)
+- [ecc kotlin patterns](skill-ecc-kotlin-patterns.md)
+- [ecc mcp server patterns](skill-ecc-mcp-server-patterns.md)
+- [ecc nextjs turbopack](skill-ecc-nextjs-turbopack.md)
+- [ecc nodejs keccak256](skill-ecc-nodejs-keccak256.md)
+- [ecc postgres patterns](skill-ecc-postgres-patterns.md)
+- [ecc python patterns](skill-ecc-python-patterns.md)
+- [ecc react patterns](skill-ecc-react-patterns.md)
+- [ecc rust patterns](skill-ecc-rust-patterns.md)
+- [ecc security review](skill-ecc-security-review.md)
+- [ecc tdd workflow](skill-ecc-tdd-workflow.md)
+- [ecc typescript patterns](skill-ecc-typescript-patterns.md)
+- [ecc verification loop](skill-ecc-verification-loop.md)
+- [ecc vue patterns](skill-ecc-vue-patterns.md)
+
+## F
+
+- [focused fix](skill-focused-fix.md)
+- [frontend learning path](skill-frontend-learning-path.md)
+- [frontend patterns](skill-frontend-patterns.md)
+- [frontend ui engineering](skill-frontend-ui-engineering.md)
+
+## G
+
+- [git workflow and versioning](skill-git-workflow-and-versioning.md)
+- [git workflow](skill-git-workflow.md)
+- [glassmorphism interface](skill-glassmorphism-interface.md)
+- [google plugins cloud google cloud developer skills finding google skills](skill-google-plugins-cloud-google-cloud-developer-skills-finding-google-skills.md)
+- [google plugins cloud google cloud developer skills gcloud](skill-google-plugins-cloud-google-cloud-developer-skills-gcloud.md)
+- [google plugins cloud google cloud developer skills google cloud recipe auth](skill-google-plugins-cloud-google-cloud-developer-skills-google-cloud-recipe-auth.md)
+- [google plugins cloud google cloud developer skills google cloud recipe onboarding](skill-google-plugins-cloud-google-cloud-developer-skills-google-cloud-recipe-onboarding.md)
+- [google plugins cloud google cloud developer skills retrieving developer knowledge](skill-google-plugins-cloud-google-cloud-developer-skills-retrieving-developer-knowledge.md)
+- [google plugins health google health developer skills finding google skills](skill-google-plugins-health-google-health-developer-skills-finding-google-skills.md)
+- [google plugins home google home developer skills finding google skills](skill-google-plugins-home-google-home-developer-skills-finding-google-skills.md)
+- [google skills ads data manager api audience ingestion](skill-google-skills-ads-data-manager-api-audience-ingestion.md)
+- [google skills ads data manager api event ingestion](skill-google-skills-ads-data-manager-api-event-ingestion.md)
+- [google skills ads data manager api setup](skill-google-skills-ads-data-manager-api-setup.md)
+- [google skills ads data manager api troubleshooting](skill-google-skills-ads-data-manager-api-troubleshooting.md)
+- [google skills ads google ads api account diagnostics](skill-google-skills-ads-google-ads-api-account-diagnostics.md)
+- [google skills ads google ads api mcp setup](skill-google-skills-ads-google-ads-api-mcp-setup.md)
+- [google skills ads google ads api quickstart](skill-google-skills-ads-google-ads-api-quickstart.md)
+- [google skills ads google mobile ads android migrate to next gen](skill-google-skills-ads-google-mobile-ads-android-migrate-to-next-gen.md)
+- [google skills ads google mobile ads banner](skill-google-skills-ads-google-mobile-ads-banner.md)
+- [google skills ads google mobile ads get started](skill-google-skills-ads-google-mobile-ads-get-started.md)
+- [google skills ads google mobile ads interstitial](skill-google-skills-ads-google-mobile-ads-interstitial.md)
+- [google skills ads google mobile ads rewarded](skill-google-skills-ads-google-mobile-ads-rewarded.md)
+- [google skills ads google mobile ads validate](skill-google-skills-ads-google-mobile-ads-validate.md)
+- [google skills ads ima dai sdk](skill-google-skills-ads-ima-dai-sdk.md)
+- [google skills ads ima sdk client side](skill-google-skills-ads-ima-sdk-client-side.md)
+- [google skills analytics google analytics admin api basics](skill-google-skills-analytics-google-analytics-admin-api-basics.md)
+- [google skills analytics google analytics data api basics](skill-google-skills-analytics-google-analytics-data-api-basics.md)
+- [google skills cloud agent platform access audit](skill-google-skills-cloud-agent-platform-access-audit.md)
+- [google skills cloud agent platform agent registry](skill-google-skills-cloud-agent-platform-agent-registry.md)
+- [google skills cloud agent platform alert configuration](skill-google-skills-cloud-agent-platform-alert-configuration.md)
+- [google skills cloud agent platform architecture](skill-google-skills-cloud-agent-platform-architecture.md)
+- [google skills cloud agent platform autorater customization](skill-google-skills-cloud-agent-platform-autorater-customization.md)
+- [google skills cloud agent platform deploy](skill-google-skills-cloud-agent-platform-deploy.md)
+- [google skills cloud agent platform endpoint management](skill-google-skills-cloud-agent-platform-endpoint-management.md)
+- [google skills cloud agent platform eval flywheel](skill-google-skills-cloud-agent-platform-eval-flywheel.md)
+- [google skills cloud agent platform inference](skill-google-skills-cloud-agent-platform-inference.md)
+- [google skills cloud agent platform migrate from ai studio](skill-google-skills-cloud-agent-platform-migrate-from-ai-studio.md)
+- [google skills cloud agent platform model registry](skill-google-skills-cloud-agent-platform-model-registry.md)
+- [google skills cloud agent platform prompt management](skill-google-skills-cloud-agent-platform-prompt-management.md)
+- [google skills cloud agent platform rag engine management](skill-google-skills-cloud-agent-platform-rag-engine-management.md)
+- [google skills cloud agent platform skill registry](skill-google-skills-cloud-agent-platform-skill-registry.md)
+- [google skills cloud agent platform troubleshooting](skill-google-skills-cloud-agent-platform-troubleshooting.md)
+- [google skills cloud agent platform tuning management](skill-google-skills-cloud-agent-platform-tuning-management.md)
+- [google skills cloud agent platform tuning](skill-google-skills-cloud-agent-platform-tuning.md)
+- [google skills cloud alloydb basics](skill-google-skills-cloud-alloydb-basics.md)
+- [google skills cloud api gateway backend security and rate limiting](skill-google-skills-cloud-api-gateway-backend-security-and-rate-limiting.md)
+- [google skills cloud api gateway mcp server](skill-google-skills-cloud-api-gateway-mcp-server.md)
+- [google skills cloud api gateway openapi spec authoring](skill-google-skills-cloud-api-gateway-openapi-spec-authoring.md)
+- [google skills cloud api gateway troubleshooting](skill-google-skills-cloud-api-gateway-troubleshooting.md)
+- [google skills cloud apigee agent gateway governance](skill-google-skills-cloud-apigee-agent-gateway-governance.md)
+- [google skills cloud application design center design deploy](skill-google-skills-cloud-application-design-center-design-deploy.md)
+- [google skills cloud application integration authoring](skill-google-skills-cloud-application-integration-authoring.md)
+- [google skills cloud application integration basics](skill-google-skills-cloud-application-integration-basics.md)
+- [google skills cloud application integration troubleshooting](skill-google-skills-cloud-application-integration-troubleshooting.md)
+- [google skills cloud assured workloads basics](skill-google-skills-cloud-assured-workloads-basics.md)
+- [google skills cloud assuredworkloads environment assessor](skill-google-skills-cloud-assuredworkloads-environment-assessor.md)
+- [google skills cloud assuredworkloads frameworks author](skill-google-skills-cloud-assuredworkloads-frameworks-author.md)
+- [google skills cloud assuredworkloads frameworks navigator](skill-google-skills-cloud-assuredworkloads-frameworks-navigator.md)
+- [google skills cloud bigquery ai ml](skill-google-skills-cloud-bigquery-ai-ml.md)
+- [google skills cloud bigquery basics](skill-google-skills-cloud-bigquery-basics.md)
+- [google skills cloud bigquery bigframes](skill-google-skills-cloud-bigquery-bigframes.md)
+- [google skills cloud bigquery migration data exporter](skill-google-skills-cloud-bigquery-migration-data-exporter.md)
+- [google skills cloud bigquery migration data loader](skill-google-skills-cloud-bigquery-migration-data-loader.md)
+- [google skills cloud bigquery migration metadata extractor](skill-google-skills-cloud-bigquery-migration-metadata-extractor.md)
+- [google skills cloud bigquery migration sql translator](skill-google-skills-cloud-bigquery-migration-sql-translator.md)
+- [google skills cloud bigquery migration validator](skill-google-skills-cloud-bigquery-migration-validator.md)
+- [google skills cloud bigquery observability](skill-google-skills-cloud-bigquery-observability.md)
+- [google skills cloud bigquery optimization](skill-google-skills-cloud-bigquery-optimization.md)
+- [google skills cloud bigquery troubleshooting](skill-google-skills-cloud-bigquery-troubleshooting.md)
+- [google skills cloud bigquery udfs](skill-google-skills-cloud-bigquery-udfs.md)
+- [google skills cloud bigtable basics](skill-google-skills-cloud-bigtable-basics.md)
+- [google skills cloud cloud armor crs rule upgrader](skill-google-skills-cloud-cloud-armor-crs-rule-upgrader.md)
+- [google skills cloud cloud build basics](skill-google-skills-cloud-cloud-build-basics.md)
+- [google skills cloud cloud databases onboarding](skill-google-skills-cloud-cloud-databases-onboarding.md)
+- [google skills cloud cloud logging configuration basics](skill-google-skills-cloud-cloud-logging-configuration-basics.md)
+- [google skills cloud cloud logging cross project configuration](skill-google-skills-cloud-cloud-logging-cross-project-configuration.md)
+- [google skills cloud cloud logging finops](skill-google-skills-cloud-cloud-logging-finops.md)
+- [google skills cloud cloud logging query generation](skill-google-skills-cloud-cloud-logging-query-generation.md)
+- [google skills cloud cloud monitoring alert configuration](skill-google-skills-cloud-cloud-monitoring-alert-configuration.md)
+- [google skills cloud cloud monitoring chart generation](skill-google-skills-cloud-cloud-monitoring-chart-generation.md)
+- [google skills cloud cloud monitoring list time series request](skill-google-skills-cloud-cloud-monitoring-list-time-series-request.md)
+- [google skills cloud cloud monitoring metric selection](skill-google-skills-cloud-cloud-monitoring-metric-selection.md)
+- [google skills cloud cloud monitoring notification channels configuration](skill-google-skills-cloud-cloud-monitoring-notification-channels-configuration.md)
+- [google skills cloud cloud monitoring promql query](skill-google-skills-cloud-cloud-monitoring-promql-query.md)
+- [google skills cloud cloud network insights](skill-google-skills-cloud-cloud-network-insights.md)
+- [google skills cloud cloud operator setup](skill-google-skills-cloud-cloud-operator-setup.md)
+- [google skills cloud cloud operator share context](skill-google-skills-cloud-cloud-operator-share-context.md)
+- [google skills cloud cloud operator](skill-google-skills-cloud-cloud-operator.md)
+- [google skills cloud cloud run alert configuration](skill-google-skills-cloud-cloud-run-alert-configuration.md)
+- [google skills cloud cloud run basics](skill-google-skills-cloud-cloud-run-basics.md)
+- [google skills cloud cloud sql basics](skill-google-skills-cloud-cloud-sql-basics.md)
+- [google skills cloud cloud trace querying](skill-google-skills-cloud-cloud-trace-querying.md)
+- [google skills cloud compute future reservations](skill-google-skills-cloud-compute-future-reservations.md)
+- [google skills cloud compute host events troubleshooting](skill-google-skills-cloud-compute-host-events-troubleshooting.md)
+- [google skills cloud compute mig autoscaling troubleshooting](skill-google-skills-cloud-compute-mig-autoscaling-troubleshooting.md)
+- [google skills cloud compute on demand reservations](skill-google-skills-cloud-compute-on-demand-reservations.md)
+- [google skills cloud compute resource availability troubleshooting](skill-google-skills-cloud-compute-resource-availability-troubleshooting.md)
+- [google skills cloud compute spot capacity advice](skill-google-skills-cloud-compute-spot-capacity-advice.md)
+- [google skills cloud compute vm creation](skill-google-skills-cloud-compute-vm-creation.md)
+- [google skills cloud datalineage bigquery asset impact analysis](skill-google-skills-cloud-datalineage-bigquery-asset-impact-analysis.md)
+- [google skills cloud datalineage summary](skill-google-skills-cloud-datalineage-summary.md)
+- [google skills cloud dbt sf to bq translator](skill-google-skills-cloud-dbt-sf-to-bq-translator.md)
+- [google skills cloud detection engineering coverage evaluation](skill-google-skills-cloud-detection-engineering-coverage-evaluation.md)
+- [google skills cloud developer device platform basics](skill-google-skills-cloud-developer-device-platform-basics.md)
+- [google skills cloud developer device platform device run](skill-google-skills-cloud-developer-device-platform-device-run.md)
+- [google skills cloud developing genkit dart](skill-google-skills-cloud-developing-genkit-dart.md)
+- [google skills cloud developing genkit go](skill-google-skills-cloud-developing-genkit-go.md)
+- [google skills cloud developing genkit js](skill-google-skills-cloud-developing-genkit-js.md)
+- [google skills cloud developing genkit python](skill-google-skills-cloud-developing-genkit-python.md)
+- [google skills cloud firebase basics](skill-google-skills-cloud-firebase-basics.md)
+- [google skills cloud gcloud](skill-google-skills-cloud-gcloud.md)
+- [google skills cloud gemini agents api](skill-google-skills-cloud-gemini-agents-api.md)
+- [google skills cloud gemini api](skill-google-skills-cloud-gemini-api.md)
+- [google skills cloud gemini interactions api](skill-google-skills-cloud-gemini-interactions-api.md)
+- [google skills cloud gemini live api](skill-google-skills-cloud-gemini-live-api.md)
+- [google skills cloud gke ai troubleshooting handle disruption gpu tpu](skill-google-skills-cloud-gke-ai-troubleshooting-handle-disruption-gpu-tpu.md)
+- [google skills cloud gke ai troubleshooting jobset interruption](skill-google-skills-cloud-gke-ai-troubleshooting-jobset-interruption.md)
+- [google skills cloud gke ai troubleshooting node unresponsive timeout](skill-google-skills-cloud-gke-ai-troubleshooting-node-unresponsive-timeout.md)
+- [google skills cloud gke ai troubleshooting tpu dynamic slices monitoring](skill-google-skills-cloud-gke-ai-troubleshooting-tpu-dynamic-slices-monitoring.md)
+- [google skills cloud gke ai troubleshooting tpu metrics monitoring](skill-google-skills-cloud-gke-ai-troubleshooting-tpu-metrics-monitoring.md)
+- [google skills cloud gke ai troubleshooting tpu mxla hang](skill-google-skills-cloud-gke-ai-troubleshooting-tpu-mxla-hang.md)
+- [google skills cloud gke ai troubleshooting tpu partition overlap](skill-google-skills-cloud-gke-ai-troubleshooting-tpu-partition-overlap.md)
+- [google skills cloud gke ai troubleshooting tpu performance degradation](skill-google-skills-cloud-gke-ai-troubleshooting-tpu-performance-degradation.md)
+- [google skills cloud gke ai troubleshooting tpu reservation stockout](skill-google-skills-cloud-gke-ai-troubleshooting-tpu-reservation-stockout.md)
+- [google skills cloud gke ai troubleshooting tpu slice mig stuck updating](skill-google-skills-cloud-gke-ai-troubleshooting-tpu-slice-mig-stuck-updating.md)
+- [google skills cloud gke ai troubleshooting tpu vbar oom](skill-google-skills-cloud-gke-ai-troubleshooting-tpu-vbar-oom.md)
+- [google skills cloud gke ai troubleshooting tpu vm repair stuck](skill-google-skills-cloud-gke-ai-troubleshooting-tpu-vm-repair-stuck.md)
+- [google skills cloud gke alert configuration](skill-google-skills-cloud-gke-alert-configuration.md)
+- [google skills cloud gke app onboarding](skill-google-skills-cloud-gke-app-onboarding.md)
+- [google skills cloud gke backup dr](skill-google-skills-cloud-gke-backup-dr.md)
+- [google skills cloud gke basics](skill-google-skills-cloud-gke-basics.md)
+- [google skills cloud gke batch hpc](skill-google-skills-cloud-gke-batch-hpc.md)
+- [google skills cloud gke capacity triage](skill-google-skills-cloud-gke-capacity-triage.md)
+- [google skills cloud gke cluster autoscaler](skill-google-skills-cloud-gke-cluster-autoscaler.md)
+- [google skills cloud gke cluster creation](skill-google-skills-cloud-gke-cluster-creation.md)
+- [google skills cloud gke compute classes](skill-google-skills-cloud-gke-compute-classes.md)
+- [google skills cloud gke cost analysis](skill-google-skills-cloud-gke-cost-analysis.md)
+- [google skills cloud gke cost optimization](skill-google-skills-cloud-gke-cost-optimization.md)
+- [google skills cloud gke custom golden image discovery](skill-google-skills-cloud-gke-custom-golden-image-discovery.md)
+- [google skills cloud gke golden path](skill-google-skills-cloud-gke-golden-path.md)
+- [google skills cloud gke inference](skill-google-skills-cloud-gke-inference.md)
+- [google skills cloud gke kueue troubleshooting](skill-google-skills-cloud-gke-kueue-troubleshooting.md)
+- [google skills cloud gke manifest generation](skill-google-skills-cloud-gke-manifest-generation.md)
+- [google skills cloud gke multitenancy](skill-google-skills-cloud-gke-multitenancy.md)
+- [google skills cloud gke networking](skill-google-skills-cloud-gke-networking.md)
+- [google skills cloud gke node notready](skill-google-skills-cloud-gke-node-notready.md)
+- [google skills cloud gke observability](skill-google-skills-cloud-gke-observability.md)
+- [google skills cloud gke platform security](skill-google-skills-cloud-gke-platform-security.md)
+- [google skills cloud gke productionize](skill-google-skills-cloud-gke-productionize.md)
+- [google skills cloud gke reliability](skill-google-skills-cloud-gke-reliability.md)
+- [google skills cloud gke service networking](skill-google-skills-cloud-gke-service-networking.md)
+- [google skills cloud gke statefulset without probes](skill-google-skills-cloud-gke-statefulset-without-probes.md)
+- [google skills cloud gke storage troubleshooting](skill-google-skills-cloud-gke-storage-troubleshooting.md)
+- [google skills cloud gke storage](skill-google-skills-cloud-gke-storage.md)
+- [google skills cloud gke unprotected statefulset](skill-google-skills-cloud-gke-unprotected-statefulset.md)
+- [google skills cloud gke upgrades](skill-google-skills-cloud-gke-upgrades.md)
+- [google skills cloud gke workload identity](skill-google-skills-cloud-gke-workload-identity.md)
+- [google skills cloud gke workload scaling troubleshooting](skill-google-skills-cloud-gke-workload-scaling-troubleshooting.md)
+- [google skills cloud gke workload scaling](skill-google-skills-cloud-gke-workload-scaling.md)
+- [google skills cloud gke workload security](skill-google-skills-cloud-gke-workload-security.md)
+- [google skills cloud gke workload troubleshooting](skill-google-skills-cloud-gke-workload-troubleshooting.md)
+- [google skills cloud google agents cli onboarding](skill-google-skills-cloud-google-agents-cli-onboarding.md)
+- [google skills cloud google cicd deploy](skill-google-skills-cloud-google-cicd-deploy.md)
+- [google skills cloud google cicd pipeline design](skill-google-skills-cloud-google-cicd-pipeline-design.md)
+- [google skills cloud google cicd release orchestration](skill-google-skills-cloud-google-cicd-release-orchestration.md)
+- [google skills cloud google cicd terraform](skill-google-skills-cloud-google-cicd-terraform.md)
+- [google skills cloud google cloud filestore auditing](skill-google-skills-cloud-google-cloud-filestore-auditing.md)
+- [google skills cloud google cloud filestore autoscale](skill-google-skills-cloud-google-cloud-filestore-autoscale.md)
+- [google skills cloud google cloud filestore log troubleshooting](skill-google-skills-cloud-google-cloud-filestore-log-troubleshooting.md)
+- [google skills cloud google cloud filestore nfs browser](skill-google-skills-cloud-google-cloud-filestore-nfs-browser.md)
+- [google skills cloud google cloud global frontend configuration](skill-google-skills-cloud-google-cloud-global-frontend-configuration.md)
+- [google skills cloud google cloud networking observability](skill-google-skills-cloud-google-cloud-networking-observability.md)
+- [google skills cloud google cloud recipe auth](skill-google-skills-cloud-google-cloud-recipe-auth.md)
+- [google skills cloud google cloud recipe foundation builder](skill-google-skills-cloud-google-cloud-recipe-foundation-builder.md)
+- [google skills cloud google cloud recipe onboarding](skill-google-skills-cloud-google-cloud-recipe-onboarding.md)
+- [google skills cloud google cloud release radar](skill-google-skills-cloud-google-cloud-release-radar.md)
+- [google skills cloud google cloud scc query](skill-google-skills-cloud-google-cloud-scc-query.md)
+- [google skills cloud google cloud scc remediation](skill-google-skills-cloud-google-cloud-scc-remediation.md)
+- [google skills cloud google cloud slo alert configuration](skill-google-skills-cloud-google-cloud-slo-alert-configuration.md)
+- [google skills cloud google cloud solution agentic ai bidirectional streaming](skill-google-skills-cloud-google-cloud-solution-agentic-ai-bidirectional-streaming.md)
+- [google skills cloud google cloud solution agentic ai borderless data lakehouse](skill-google-skills-cloud-google-cloud-solution-agentic-ai-borderless-data-lakehouse.md)
+- [google skills cloud google cloud solution agentic ai data science workflow](skill-google-skills-cloud-google-cloud-solution-agentic-ai-data-science-workflow.md)
+- [google skills cloud google cloud solution agentic analytics spark knowledge catalog](skill-google-skills-cloud-google-cloud-solution-agentic-analytics-spark-knowledge-catalog.md)
+- [google skills cloud google cloud solution architecture](skill-google-skills-cloud-google-cloud-solution-architecture.md)
+- [google skills cloud google cloud solution build deploy agents](skill-google-skills-cloud-google-cloud-solution-build-deploy-agents.md)
+- [google skills cloud google cloud solution event driven decoupling](skill-google-skills-cloud-google-cloud-solution-event-driven-decoupling.md)
+- [google skills cloud google cloud solution guided gke ai migration](skill-google-skills-cloud-google-cloud-solution-guided-gke-ai-migration.md)
+- [google skills cloud google cloud solution hybrid search alloydb](skill-google-skills-cloud-google-cloud-solution-hybrid-search-alloydb.md)
+- [google skills cloud google cloud solution multi agent security](skill-google-skills-cloud-google-cloud-solution-multi-agent-security.md)
+- [google skills cloud google cloud solution n tier serverless web app](skill-google-skills-cloud-google-cloud-solution-n-tier-serverless-web-app.md)
+- [google skills cloud google cloud solution rag enterprise search gke sqldb](skill-google-skills-cloud-google-cloud-solution-rag-enterprise-search-gke-sqldb.md)
+- [google skills cloud google cloud storage basics](skill-google-skills-cloud-google-cloud-storage-basics.md)
+- [google skills cloud google cloud storage bucket architect](skill-google-skills-cloud-google-cloud-storage-bucket-architect.md)
+- [google skills cloud google cloud storage diagnostic](skill-google-skills-cloud-google-cloud-storage-diagnostic.md)
+- [google skills cloud google cloud storage fuse](skill-google-skills-cloud-google-cloud-storage-fuse.md)
+- [google skills cloud google cloud waf cost optimization](skill-google-skills-cloud-google-cloud-waf-cost-optimization.md)
+- [google skills cloud google cloud waf operational excellence](skill-google-skills-cloud-google-cloud-waf-operational-excellence.md)
+- [google skills cloud google cloud waf performance optimization](skill-google-skills-cloud-google-cloud-waf-performance-optimization.md)
+- [google skills cloud google cloud waf reliability](skill-google-skills-cloud-google-cloud-waf-reliability.md)
+- [google skills cloud google cloud waf security](skill-google-skills-cloud-google-cloud-waf-security.md)
+- [google skills cloud google cloud waf sustainability](skill-google-skills-cloud-google-cloud-waf-sustainability.md)
+- [google skills cloud iam helper for policy management](skill-google-skills-cloud-iam-helper-for-policy-management.md)
+- [google skills cloud iam helper for policy simulator](skill-google-skills-cloud-iam-helper-for-policy-simulator.md)
+- [google skills cloud iam helper for privileged access management](skill-google-skills-cloud-iam-helper-for-privileged-access-management.md)
+- [google skills cloud iam helper for troubleshooting](skill-google-skills-cloud-iam-helper-for-troubleshooting.md)
+- [google skills cloud iap agent platform troubleshooting](skill-google-skills-cloud-iap-agent-platform-troubleshooting.md)
+- [google skills cloud managed airflow dag authoring](skill-google-skills-cloud-managed-airflow-dag-authoring.md)
+- [google skills cloud managed airflow dag troubleshooting](skill-google-skills-cloud-managed-airflow-dag-troubleshooting.md)
+- [google skills cloud managed airflow migrations](skill-google-skills-cloud-managed-airflow-migrations.md)
+- [google skills cloud managed airflow recommendations](skill-google-skills-cloud-managed-airflow-recommendations.md)
+- [google skills cloud pathways workload](skill-google-skills-cloud-pathways-workload.md)
+- [google skills cloud secops cases](skill-google-skills-cloud-secops-cases.md)
+- [google skills cloud secops detection engineering](skill-google-skills-cloud-secops-detection-engineering.md)
+- [google skills cloud secops hunt](skill-google-skills-cloud-secops-hunt.md)
+- [google skills cloud secops investigate](skill-google-skills-cloud-secops-investigate.md)
+- [google skills cloud secops triage](skill-google-skills-cloud-secops-triage.md)
+- [google skills cloud servicehealth incident correlation](skill-google-skills-cloud-servicehealth-incident-correlation.md)
+- [google skills cloud spanner basics](skill-google-skills-cloud-spanner-basics.md)
+- [google skills cloud spanner graph query tuning](skill-google-skills-cloud-spanner-graph-query-tuning.md)
+- [google skills cloud spanner graph schema best practices](skill-google-skills-cloud-spanner-graph-schema-best-practices.md)
+- [google skills cloud spanner relational to graph](skill-google-skills-cloud-spanner-relational-to-graph.md)
+- [google skills cloud workload manager basics](skill-google-skills-cloud-workload-manager-basics.md)
+- [google skills developers finding google skills](skill-google-skills-developers-finding-google-skills.md)
+- [google skills developers gerrit code review](skill-google-skills-developers-gerrit-code-review.md)
+- [google skills developers migrate to rust](skill-google-skills-developers-migrate-to-rust.md)
+- [google skills developers retrieving developer knowledge](skill-google-skills-developers-retrieving-developer-knowledge.md)
+- [google skills identity dpop adoption](skill-google-skills-identity-dpop-adoption.md)
+- [google skills identity sign in with google web](skill-google-skills-identity-sign-in-with-google-web.md)
+- [google skills platform devices litert google tensor](skill-google-skills-platform-devices-litert-google-tensor.md)
+
+## H
+
+- [handoff](skill-handoff.md)
+- [html dom practice](skill-html-dom-practice.md)
+
+## I
+
+- [i18n localization](skill-i18n-localization.md)
+- [idea refine](skill-idea-refine.md)
+- [incremental implementation](skill-incremental-implementation.md)
+- [interview me](skill-interview-me.md)
+
+## L
+
+- [landing page generator](skill-landing-page-generator.md)
+- [lifecycle hooks automation](skill-lifecycle-hooks-automation.md)
+- [loading state design](skill-loading-state-design.md)
+- [loop graph engineering](skill-loop-graph-engineering.md)
+
+## M
+
+- [mcp integration engineering](skill-mcp-integration-engineering.md)
+- [mcp server patterns](skill-mcp-server-patterns.md)
+- [mcp tool contract design](skill-mcp-tool-contract-design.md)
+- [micro interactions](skill-micro-interactions.md)
+- [migration architect](skill-migration-architect.md)
+- [mobile release](skill-mobile-release.md)
+- [model agnostic prompt design](skill-model-agnostic-prompt-design.md)
+- [multi agent orchestration](skill-multi-agent-orchestration.md)
+
+## O
+
+- [observability and instrumentation](skill-observability-and-instrumentation.md)
+
+## P
+
+- [page transition design](skill-page-transition-design.md)
+- [performance optimization](skill-performance-optimization.md)
+- [performance profiler](skill-performance-profiler.md)
+- [plan driven development](skill-plan-driven-development.md)
+- [planning and task breakdown](skill-planning-and-task-breakdown.md)
+- [premium landing page design](skill-premium-landing-page-design.md)
+- [production change safety](skill-production-change-safety.md)
+- [project instructions engineering](skill-project-instructions-engineering.md)
+- [prompt injection defense](skill-prompt-injection-defense.md)
+- [python patterns](skill-python-patterns.md)
+- [python testing](skill-python-testing.md)
+
+## R
+
+- [react patterns](skill-react-patterns.md)
+- [release notes engineering](skill-release-notes-engineering.md)
+- [responsive interface engineering](skill-responsive-interface-engineering.md)
+- [runtime compatibility testing](skill-runtime-compatibility-testing.md)
+
+## S
+
+- [saas scaffolder](skill-saas-scaffolder.md)
+- [sandbox isolation](skill-sandbox-isolation.md)
+- [scroll driven animation](skill-scroll-driven-animation.md)
+- [security and hardening](skill-security-and-hardening.md)
+- [security review](skill-security-review.md)
+- [security scan](skill-security-scan.md)
+- [senior architect](skill-senior-architect.md)
+- [senior backend](skill-senior-backend.md)
+- [senior computer vision](skill-senior-computer-vision.md)
+- [senior data engineer](skill-senior-data-engineer.md)
+- [senior devops](skill-senior-devops.md)
+- [senior frontend](skill-senior-frontend.md)
+- [senior fullstack](skill-senior-fullstack.md)
+- [senior ml engineer](skill-senior-ml-engineer.md)
+- [senior prompt engineer](skill-senior-prompt-engineer.md)
+- [senior qa](skill-senior-qa.md)
+- [shipping and launch](skill-shipping-and-launch.md)
+- [skill authoring](skill-skill-authoring.md)
+- [skill corpus curation](skill-skill-corpus-curation.md)
+- [skill discovery](skill-skill-discovery.md)
+- [skill improvement cycle](skill-skill-improvement-cycle.md)
+- [skill installation planning](skill-skill-installation-planning.md)
+- [skill quality evaluator](skill-skill-quality-evaluator.md)
+- [skill registry aggregation](skill-skill-registry-aggregation.md)
+- [skill relevance ranking](skill-skill-relevance-ranking.md)
+- [skill security review](skill-skill-security-review.md)
+- [skill tester](skill-skill-tester.md)
+- [software testing](skill-software-testing.md)
+- [source driven development](skill-source-driven-development.md)
+- [spec driven development](skill-spec-driven-development.md)
+- [spec first development](skill-spec-first-development.md)
+- [spec to repo](skill-spec-to-repo.md)
+
+## T
+
+- [tdd guide](skill-tdd-guide.md)
+- [tdd workflow](skill-tdd-workflow.md)
+- [tech debt tracker](skill-tech-debt-tracker.md)
+- [test driven development](skill-test-driven-development.md)
+- [three dimensional web animation](skill-three-dimensional-web-animation.md)
+- [typography system design](skill-typography-system-design.md)
+
+## U
+
+- [ui design system](skill-ui-design-system.md)
+- [ui ux design](skill-ui-ux-design.md)
+- [using agent skills](skill-using-agent-skills.md)
+
+## V
+
+- [verification loop](skill-verification-loop.md)
+- [visual hierarchy design](skill-visual-hierarchy-design.md)
+
+## W
+
+- [website intro animation](skill-website-intro-animation.md)
+
